@@ -164,3 +164,17 @@ input{width:100%;}
   float: left;
   /* width and height can be anything, as long as they're equal */
 }
+
+
+/*----------------------------------------------------------------------------------------------*/
+/*----------------------------------------- CAROUSSEl-------------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+#myCarousel .nav a small {
+    display:block;
+}
+#myCarousel .nav {
+  background:#eee;
+}
+#myCarousel .nav a {
+    border-radius:0px;
+}
