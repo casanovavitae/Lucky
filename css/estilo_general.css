@@ -1,20 +1,30 @@
 /*----------------------------------------------------------------------------------------------*/
 /*----------------------------------Background COLORS  -----------------------------------------*/
 /*----------------------------------------------------------------------------------------------*/
+.bg-verde-darkact{background-color: #032E24;}
+.bg-verde-claroin{background-color: #C5D0C7;} 
+.bg-verde-dark{background-color: #032E24;}
 .bg-verde{background-color: #00FF00;} 
+.bg-verde-claro{background-color: #C5D0C7;} 
 .bg-azul{background-color: #0066CC;}
 .bg-rosado{background-color: #CC0066;}
 .bg-morado{background-color: #660066;}
 .bg-mostaza{background-color: #FF9900;}
+.bg-mostaza-claro{background-color: #F1E28D;}
 .bg-carne{background-color: #FFCC99;} 
 .bg-azul-claro{background-color: #00FFCC;} 
+
+
 
 /*----------------------------------------------------------------------------------------------*/
 /*-----------------------------------------MARGENES---------------------------------------------*/
 /*----------------------------------------------------------------------------------------------*/
+.mtn20{margin-top: -20px;}
+
 .mt05{margin-top: 5px;}
 .mt10{margin-top: 10px;}
 .mt20{margin-top: 20px;}
+.mt20{margin-top: 25px;}
 .mt30{margin-top: 30px;}
 .mt40{margin-top: 40px;}
 .mt50{margin-top: 50px;}
@@ -23,6 +33,7 @@
 .mt80{margin-top: 80px;}
 .mt90{margin-top: 90px;}
 .mt100{margin-top: 100px;}
+.mt120{margin-top: 120px;}
 .mt250{margin-top: 250px;}
 
 .mb10{margin-bottom: 10px;}
@@ -36,9 +47,19 @@
 .mb90{margin-bottom: 90px;}
 .mb100{margin-bottom: 100px;}
 
-.ml10{}
+.padtop15{padding-top: 15px;}
+
+.ml05{ margin-left: 5px;}
 .ml20{}
 .mr50{ margin-right: 50px;}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.flot-f{float: left;}
+
+.mpless {margin: 0em;}
 /*----------------------------------------------------------------------------------------------*/
 /*-----------------------------------------  Box   ---------------------------------------------*/
 /*----------------------------------------------------------------------------------------------*/
@@ -70,7 +91,7 @@
 /*family*/
 p{font-family: 'proxima-nova-regular', sans-serif;}
 .font_nova{ font-family: 'proxima-nova-regular', sans-serif;}
-.font_novas{ font-family: 'proxima-nova-sbold', sans-serif;}
+.font_novas{ font-family: 'proxima-nova-sbold', sans-serif; font-weight: bold;}
 .font_roboto{ font-family: 'Roboto', sans-serif;}
 .font_arial{  font-family: Arial, Helvetica, sans-serif;}
 /*size*/
@@ -124,7 +145,9 @@ img{ margin: 0 auto;}
 /*-----------------------------------------INPUTS   --------------------------------------------*/
 /*----------------------------------------------------------------------------------------------*/
 
-input{width:100%;}
+input{height: 35px; width: 100%;}
+.input-select{ height: 35px;}
+.input-tel{width: 80%;}
 .styled-select select {
 	 position: relative;
    background: transparent;
@@ -141,11 +164,18 @@ input{width:100%;}
    
   
    }
+   .scs {
+color: #fff;
+background: #032E24;
+height: 45px;
+width: 50%;
+
+}
 
    .styled-select {
    float: left;
-   margin-top: 15px;
-   margin-left: 15px;
+   /*margin-top: 15px;
+   margin-left: 15px;*/
    width: 200px;
    height: 34px;
    overflow: hidden;
@@ -155,7 +185,7 @@ input{width:100%;}
    }
 	
 /*----------------------------------------------------------------------------------------------*/
-/*-----------------------------------------INPUTS   --------------------------------------------*/
+/*----------------------------------------- CIRCLE  --------------------------------------------*/
 /*----------------------------------------------------------------------------------------------*/
 .circle {
   border-radius: 50%;
@@ -167,7 +197,7 @@ input{width:100%;}
 
 
 /*----------------------------------------------------------------------------------------------*/
-/*----------------------------------------- CAROUSSEl-------------------------------------------*/
+/*----------------------------------------- SLIDER Photos-------------------------------------------*/
 /*----------------------------------------------------------------------------------------------*/
 #myCarousel .nav a small {
     display:block;
@@ -177,4 +207,41 @@ input{width:100%;}
 }
 #myCarousel .nav a {
     border-radius:0px;
+}
+.carousel-inner {
+    height: 500px;
+}
+
+.carousel-inner .item {
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.carousel-inner .item img {
+    width: 100%;
+    min-height: 100%;
+    max-height: none;
+}
+
+.bg1{ background-image: url("http://placehold.it/1200x400/cccccc/ffffff")}
+
+/*----------------------------------------------------------------------------------------------*/
+/*----------------------------------------- TAG li   -------------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+
+.ul_s1 {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.li_s1 { 
+    padding-left: 1em; 
+    text-indent: 2em;
+}
+
+.li_s1:before {
+    content: "• ";
+    color: #00FF00;
 }
