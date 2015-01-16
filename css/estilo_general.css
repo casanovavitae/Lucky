@@ -1,0 +1,166 @@
+/*----------------------------------------------------------------------------------------------*/
+/*----------------------------------Background COLORS  -----------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+.bg-verde{background-color: #00FF00;} 
+.bg-azul{background-color: #0066CC;}
+.bg-rosado{background-color: #CC0066;}
+.bg-morado{background-color: #660066;}
+.bg-mostaza{background-color: #FF9900;}
+.bg-carne{background-color: #FFCC99;} 
+.bg-azul-claro{background-color: #00FFCC;} 
+
+/*----------------------------------------------------------------------------------------------*/
+/*-----------------------------------------MARGENES---------------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+.mt05{margin-top: 5px;}
+.mt10{margin-top: 10px;}
+.mt20{margin-top: 20px;}
+.mt30{margin-top: 30px;}
+.mt40{margin-top: 40px;}
+.mt50{margin-top: 50px;}
+.mt60{margin-top: 60px;}
+.mt70{margin-top: 70px;}
+.mt80{margin-top: 80px;}
+.mt90{margin-top: 90px;}
+.mt100{margin-top: 100px;}
+.mt250{margin-top: 250px;}
+
+.mb10{margin-bottom: 10px;}
+.mb20{margin-bottom: 20px;}
+.mb30{margin-bottom: 30px;}
+.mb40{margin-bottom: 40px;}
+.mb50{margin-bottom: 50px;}
+.mb60{margin-bottom: 60px;}
+.mb70{margin-bottom: 70px;}
+.mb80{margin-bottom: 80px;}
+.mb90{margin-bottom: 90px;}
+.mb100{margin-bottom: 100px;}
+
+.ml10{}
+.ml20{}
+.mr50{ margin-right: 50px;}
+/*----------------------------------------------------------------------------------------------*/
+/*-----------------------------------------  Box   ---------------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+.shadow{box-shadow: 0px 1px 2px 1px #D6D6C2;}
+
+/*----------------------------------------------------------------------------------------------*/
+/*-----------------------------------------  Boton  ---------------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+.boton{}
+.activo{background-color: #E5B02F; color: #FFF;}
+.inactivo{background-color: #FFF; color: #000; cursor: pointer;}
+
+/*----------------------------------------------------------------------------------------------*/
+/*----------------------------------------- FONT   ---------------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+/*included*/
+@font-face {
+    font-family: proxima-nova-regular;
+    src: url(../fonts/ProximaNova-Reg.ttf);
+}
+@font-face {
+    font-family: proxima-nova-sbold;
+    src: url(../fonts/ProximaNova-Sbold.ttf);
+}
+
+
+/*Espaciado*/
+.font-space{line-height: 30px;}
+/*family*/
+p{font-family: 'proxima-nova-regular', sans-serif;}
+.font_nova{ font-family: 'proxima-nova-regular', sans-serif;}
+.font_novas{ font-family: 'proxima-nova-sbold', sans-serif;}
+.font_roboto{ font-family: 'Roboto', sans-serif;}
+.font_arial{  font-family: Arial, Helvetica, sans-serif;}
+/*size*/
+.s10{ font-size: 10px;}
+.s12{ font-size: 12px;}
+.s14{ font-size: 14px;}
+.s16{ font-size: 16px;}
+.s18{ font-size: 18px;}
+.s20{ font-size: 20px;}
+.s22{ font-size: 22px;}
+.s24{ font-size: 24px;}
+.s26{ font-size: 26px;}
+/*color*/
+.blanco{color: #FFFFFF;}
+.mostaza{color: #E5B02F;}
+.verde{color: #6D9175;}
+.gris{color: #4A4A4A;}
+.gris-claro{color: #9B9B9B;}
+/*bold*/
+.bold{font-weight: bold;}
+
+
+/*----------------------------------------------------------------------------------------------*/
+/*----------------------------------------- HR STYLE--------------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+.dashed{border: 0;border-bottom: 2px dashed #E5B02F;background: #FFF;}
+
+/*----------------------------------------------------------------------------------------------*/
+/*----------------------------------------- IMG     --------------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+img{ margin: 0 auto;}
+.logo{ width:192px; height:69px; position: absolute; top:30%;  overflow: hidden;margin: 0 auto;left: 0;right: 0;}
+
+
+.bg{background: #032E24; width:100%; height:49px; position: relative;}
+.bgf{background:black;}
+.menu_top{margin-top: 99px;}
+
+.dm0{margin-top: 30px; margin-bottom: 10px;}
+.m0{margin-bottom: 35px;}
+.m1{margin-top: 140px;}
+.m2{margin-top: 60px;}
+.m4{margin-top: 15px;}
+.m5{margin-top: 30px;}
+/*border-top: dotted 1px*/
+
+
+
+
+/*----------------------------------------------------------------------------------------------*/
+/*-----------------------------------------INPUTS   --------------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+
+input{width:100%;}
+.styled-select select {
+	 position: relative;
+   background: transparent;
+   width: 200px;
+   padding: 5px;
+   font-size: 11px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   
+  
+   }
+
+   .styled-select {
+   float: left;
+   margin-top: 15px;
+   margin-left: 15px;
+   width: 200px;
+   height: 34px;
+   overflow: hidden;
+   /*background: red;*/
+   /*background: url(../public/img/arrow_down.png) no-repeat right #fff;*/
+   border: 1px solid #ccc;
+   }
+	
+/*----------------------------------------------------------------------------------------------*/
+/*-----------------------------------------INPUTS   --------------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+.circle {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px; 
+  float: left;
+  /* width and height can be anything, as long as they're equal */
+}

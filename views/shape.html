@@ -53,6 +53,15 @@
   border-bottom-right-radius: 50% 27%;
   border-bottom-left-radius: 50% 27%;
 }
+#slide1,
+#slide2,
+#slide3 {
+ 
+height: 200px;
+ width: 200px;
+border: solid red thin;    
+    
+}
     </style>
   </head>
   <body>
@@ -60,13 +69,31 @@
 <div id="RectanguloCircular"></div>-->
 
 <div id="Rec"></div>
+<div class="slide">hello</div>
+<div class="slide">hello</div>
+<div class="slide">hello</div>
+<div class="slide">hello</div>
 
 
 
-
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../js/bootstrap.min.js"></script>
+
+    <script>
+    $(document).ready(function() {
+    $(".tip_btn").each(function(i) {
+        if(i <= 1){
+            $(this).attr('id', "tip_btn" + (i + 1));
+            $(this).show();
+        }else{
+            $(this).hide();
+        }
+    });
+});
+    </script>
   </body>
 </html>
